@@ -1,0 +1,40 @@
+{
+  "name": "sample-store",
+  "version": "1.0.0",
+  "description": "Learning react js by replicate veritrans sample store",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "compress": "./node_modules/.bin/gulp compress",
+    "watch": "./node_modules/.bin/gulp watch",
+    "install-assets": "./node_modules/.bin/bower install ",
+    "start": "./node_modules/.bin/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fauzan Qadri",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-gzip": "^1.2.0",
+    "gulp-uglify": "^1.4.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.7.0",
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "es6-promise": "^3.0.2",
+    "express": "^4.13.3",
+    "immutable": "^3.7.5",
+    "nodemon": "^1.7.1",
+    "react": "^0.13.0",
+    "react-router": "^0.13.4",
+    "react-tools": "^0.13.3",
+    "underscore": "^1.8.3"
+  }
+}

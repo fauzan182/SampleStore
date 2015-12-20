@@ -1,0 +1,23 @@
+{
+  "name": "SampleStore",
+  "version": "0.0.0",
+  "authors": [
+    "Fauzan Qadri <ojankill@gmail.com>"
+  ],
+  "description": "learning react by duplicate veritrans sample store",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
